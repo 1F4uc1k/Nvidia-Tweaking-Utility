@@ -93,18 +93,15 @@ goto menu
 
 :1
 cls
-mkdir %systemdrive%\NTU
-curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/nvlddmkm/nvlddmkm.reg" --output "%systemdrive%\NTU\nvlddmkm.reg"
+curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/nvlddmkm/nvlddmkm.reg" --output "%temp%\nvlddmkm.reg" && "%temp%\nvlddmkm.reg" && del "%temp%\nvlddmkm.reg"
 cls
-curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/NVDisplay.ContainerLocalSystem/NVDisplay.ContainerLocalSystem.reg" --output "%systemdrive%\NTU\NVDisplay.ContainerLocalSystem.reg"
+curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/NVDisplay.ContainerLocalSystem/NVDisplay.ContainerLocalSystem.reg" --output "%temp%\NVDisplay.ContainerLocalSystem.reg" && "%temp%\NVDisplay.ContainerLocalSystem.reg" && del "%temp%\NVDisplay.ContainerLocalSystem.reg"
 cls
-"%systemdrive%\NTU\NVDisplay.ContainerLocalSystem.reg"
-"%systemdrive%\NTU\nvlddmkm.reg"
-if %TYPE%==0000 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0000.reg" --output "%systemdrive%\NTU\0000.reg" && "%systemdrive%\NTU\0000.reg") 
-else if %TYPE%==0001 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0001.reg" --output "%systemdrive%\NTU\0001.reg" && "%systemdrive%\NTU\0001.reg") 
-else if %TYPE%==0002 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0002.reg" --output "%systemdrive%\NTU\0002.reg" && "%systemdrive%\NTU\0002.reg") 
-else if %TYPE%==0003 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0003.reg" --output "%systemdrive%\NTU\0003.reg" && "%systemdrive%\NTU\0003.reg") 
-else if %TYPE%==0004 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0004.reg" --output "%systemdrive%\NTU\0004.reg" && "%systemdrive%\NTU\0004.reg")
+if %TYPE%==0000 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0000.reg" --output "%temp%\0000.reg" && "%temp%\0000.reg" && del "%temp%\0000.reg") 
+else if %TYPE%==0001 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0001.reg" --output "%temp%\0001.reg" && "%temp%\0001.reg" && del "%temp%\0001.reg") 
+else if %TYPE%==0002 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0002.reg" --output "%temp%\0002.reg" && "%temp%\0002.reg" && del "%temp%\0002.reg") 
+else if %TYPE%==0003 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0003.reg" --output "%temp%\0003.reg" && "%temp%\0003.reg" && del "%temp%\0003.reg") 
+else if %TYPE%==0004 (curl -g -k -L "https://raw.githubusercontent.com/1F4uc1k/Nvidia-Tweaking-Utility/main/DisplayAdapter/0004.reg" --output "%temp%\0004.reg" && "%temp%\0004.reg" && del "%temp%\0004.reg")
 cls
 echo done!
 timeout /t 2 >nul
