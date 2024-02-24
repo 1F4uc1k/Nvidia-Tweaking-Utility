@@ -24,10 +24,8 @@ Windows Registry Editor Version 5.00 Made by 1F4uc1k public file version: 1.0
 "EnableBugcheckDisplay"=dword:00000000
 "EnableBugcheckTinting"=dword:00000000
 "EnableCEPreemption"=dword:00000001
-"EnableDirectFlip"=dword:00000001
 "EnableDx12OnMsHybrid"=dword:00000001
 "EnableDx12OnOptimus"=dword:00000001
-"EnableIndependentFlip"=dword:00000001
 "EnableIoMmu"=dword:00000000
 "EnableMemoryTiling"=dword:00000001
 "EnableMidBufferPreemptionForHighTdrTimeout"=dword:00000001
