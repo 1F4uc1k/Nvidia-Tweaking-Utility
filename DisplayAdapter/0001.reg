@@ -31,7 +31,6 @@ Windows Registry Editor Version 5.00 Made by 1F4uc1k public file version 1.0
 "RMHdcpKeyglobZero"=dword:00000001
 "RmMIONoPowerOff"=dword:00000001
 "RMNoECCFBScrub"=dword:00000001
-"RMPcieLinkSpeed"=dword:00000004
 "RmPmuErrorLogger"=dword:00000000
 "RmProfilingAdminOnly"=dword:00000000
 "RMSkipHdcp22Init"=dword:00000001
