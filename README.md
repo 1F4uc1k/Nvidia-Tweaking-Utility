@@ -3,6 +3,7 @@
 - Simple tool to enchance your performance focused on competitive gameplay.
 ## ⚒️ **How to use it?**
 - First you have to know that you will need an debloated driver. If you already have one you can skip and go to next section.
+- Before debloating your driver uninstall the old one with [Display Driver Uninstaller](https://www.guru3d.com/download/display-driver-uninstaller-download/)
 - You can easly debloat your driver with tools like [NVCleanInstall](https://www.techpowerup.com/nvcleanstall/), [NVSlimmer](https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility.423072/)
 - All you need is: DisplayDriver, NvContainer, PhysX and possibly HD Audio (Audio via HDMI cable) or USB Type-C Port device (Display via usb-c cable). For laptops it is recommended to add also NVIDIA Platform Controllers
 ### **Usage**
