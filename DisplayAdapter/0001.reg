@@ -15,7 +15,7 @@ Windows Registry Editor Version 5.00 Made by 1F4uc1k public file version 1.0
 "PowerMizerLevelAC"=dword:00000001
 "PowerMizerLevel"=dword:00000001
 "PowerSaverHsyncOn"=dword:00000000
-"RMBandwidthFeature"=dword:00000001
+"RMBandwidthFeature"=dword:00000064
 "RmClkPowerOffDramPllWhenUnused"=dword:00000000
 "RMClkSlowDown"=dword:00000000
 "RMDisableGpuASPMFlags"=dword:00000001
